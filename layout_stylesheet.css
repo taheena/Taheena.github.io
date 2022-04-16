@@ -5,30 +5,33 @@
 body {
     background-color: white;
     color: black;
+    float:inherit;
 }
 
 /* Styling Flexbox */
 #flexbox-demo-bg {
-    background-color: peachpuff;
+    background-color: purple;
     color: white;
 }
+
 .flex-container {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-  }
-  .flex-item {
-    background: indianred;
-    padding: 5px;
-    width: 250px;
-    height: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    color: #ffffff;
-    font-weight: bold;
-    font-size: 20px;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    background-color: indianred;
+    justify-content: center;
+   
+}
+
+.flex-item{
+    background-color: indianred;
+    width: 300px;
+    margin: 10px;
     text-align: center;
-  }
+    line-height: 20px;
+    font-size: 20px;
+}
+
+img {
+    width: 50px;
+height: 200
+}
